@@ -30,7 +30,7 @@ docker-compose-practice/
 
 Clone the repo:
 
-```bash
+##bash
 git clone <your-repo-url>
 cd docker-compose-practice
 
@@ -39,15 +39,15 @@ Create enviorment file:
 cp .env.example .env
 
 
-Star the stack:
+##Star the stack:
 
 docker compose up -d --build
 
 
-Verify
+##Verify
 
 http://127.0.0.1:3000
 
-Stop:
+##Stop:
 
 docker compose down
